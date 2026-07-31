@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Friendship Day!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <h1>Happy Friendship Day! 🌟</h1>
+        <p class="date">August 2, 2026</p>
+        
+        <!-- Replace the URL below with a link to a picture of you two -->
+        
+<img class="friend-photo" src="us.jpg" alt="Us">
+
+        <div class="message-box">
+            <p>Hey Bestie,</p>
+            <p>Thank you for always being there for me, laughing at my terrible jokes, and being the best friend anyone could ask for. Here's a little corner of the internet just for us!</p>
+            <p class="signature">- Your Best Friend ❤️</p>
+        </div>
+
+        <button onclick="revealSecret()">Click for a Secret Message 🤫</button>
+        <p id="secret-text" class="hidden">You owe me a treat for making this website! 🍕✨</p>
+    </div>
+
+    <script>
+        function revealSecret() {
+            var text = document.getElementById("secret-text");
+            text.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
